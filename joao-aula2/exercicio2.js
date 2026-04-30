@@ -38,8 +38,10 @@ if (nota >= 7) {
  * Exercicio 6
  */
 
+//Definir váriavel Nível
 let nivel = parseFloat(prompt("Digite o nivel:"));
 
+//Definir o nível da variável
 switch (nivel) {
     case 1:
         console.log("Iniciante");
@@ -59,7 +61,9 @@ switch (nivel) {
  * Exercicio 7
  */
 
+//Definir variável idade
 let idade = parseFloat(prompt("Digite a idade:"));
 
+//Definir se é maior ou menor de idade
 let resultado = (idade >= 18) ? "Maior de idade" : "Menor de idade";
 console.log(resultado);
